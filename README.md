@@ -1,10 +1,10 @@
 # Aircraft Pitch PID Controller & Bad-Tuning Explorer
 
-An interactive **Google Colab** engineering tool built with `ipywidgets`, `NumPy`, `Pandas`, and `Matplotlib` to simulate a closed-loop **PID controller for aircraft pitch** and demonstrate what happens when each tuning gain ($K_p$, $K_i$, or $K_d$) is set wrong[cite: 6].
+An interactive **Google Colab** engineering tool built with `ipywidgets`, `NumPy`, `Pandas`, and `Matplotlib` to simulate a closed-loop **PID controller for aircraft pitch** and demonstrate what happens when each tuning gain ($K_p$, $K_i$, or $K_d$) is set wrong.
 
 ## Overview
 
-Pitch attitude control regulates an aircraft's nose angle toward a target pitch (`Target Pitch [deg]`) using elevator deflection[cite: 6]. This notebook lets you test both well-tuned and mis-tuned PID parameters, inspect a 2D pitch attitude view and time-series response plot, and read a cause-and-effect explanation of why the response behaves that way[cite: 6].
+Pitch attitude control regulates an aircraft's nose angle toward a target pitch (`Target Pitch [deg]`) using elevator deflection[cite: 6]. This notebook lets you test both well-tuned and mis-tuned PID parameters, inspect a 2D pitch attitude view and time-series response plot, and read a cause-and-effect explanation of why the response behaves that way.
 
 ### Included Tuning Presets
 - **Balanced Tune:** Fast, clean pitch tracking with minimal overshoot and near-zero steady-state error.
